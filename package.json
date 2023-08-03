@@ -20,6 +20,6 @@
     "typescript": "^5.1.6"
   },
   "dependencies": {
-    "big-number": "^2.0.0"
+    "bignumber.js": "^9.1.1"
   }
 }
