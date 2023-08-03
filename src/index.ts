@@ -1,3 +1,3 @@
-module.exports = function() {
-    console.log('Hello, world!');
-}
+export * from './shamir';
+export * from './keypair';
+export * from './utils';
