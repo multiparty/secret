@@ -1,6 +1,5 @@
 import BigNumber from 'bignumber.js';
-import { Point } from '@utils/data-format';
-import { deepEqual, evaluateAtPoint, shamirShare, sampleShamirPolynomial } from '../shamirs';
+import { deepEqual, evaluateAtPoint, shamirShare, sampleShamirPolynomial } from '../shamir';
 
 describe('evaluateAtPoint', () => {
   let prime: BigNumber;

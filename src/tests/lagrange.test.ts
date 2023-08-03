@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js';
-import { Point } from '@utils/data-format';
-import { gcd, power, modularInverse, lagrangeConstantsForPoint, interpolateAtPoint } from '../shamirs';
+import { Point } from '../types';
+import { gcd, power, modularInverse, lagrangeConstantsForPoint, interpolateAtPoint } from '../shamir';
 
 describe('gcd', () => {
   test('calculates the greatest common divisor of two numbers', () => {

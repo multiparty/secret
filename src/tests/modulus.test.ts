@@ -1,5 +1,4 @@
-// modulus.test.ts
-import { modulus } from '../shamirs';
+import { modulus } from '../shamir';
 import BigNumber from 'bignumber.js';
 
 describe('modulus', () => {

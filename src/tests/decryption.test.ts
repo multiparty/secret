@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js';
-import { Point } from '@/types';
-import { shamirReconstruct } from '@/shamir';
+import { Point } from '../types';
+import { shamirReconstruct } from '../shamir';
 
 describe('shamirReconstruct', () => {
   it('should reconstruct the secret correctly', () => {
