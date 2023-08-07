@@ -2,7 +2,7 @@
   "name": "secret",
   "version": "0.0.1",
   "description": "Shamir secret sharing using public-key encryption.",
-  "main": "dist/index.ts",
+  "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
