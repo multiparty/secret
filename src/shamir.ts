@@ -254,7 +254,8 @@ inputs:
 obj (Record<string, any>) - The nested object containing encrypted secret shares in a table structure.
 privateKey (CryptoKey) - The private key used to decrypt the secret shares.
 prime (BigNumber) - The prime used to generate the secret shares.
-reduce (function) - A function that reduces the unencrypted secret shares to a single value.
+reduce (function, optional) - A function that reduces the unencrypted secret shares to a single value.
+progressBar (function, optional) - A function that creates a progress bar.
 transform (function, optional) - A function to apply to each secret value before reducing. Default: (x) => x.
 
 outputs:
